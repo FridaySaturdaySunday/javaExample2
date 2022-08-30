@@ -11,6 +11,11 @@ public class IPhone extends Phone {
 		this.memorySize = memorySize;
 	}
 
+	@Override
+	public String toString() {
+		return "IPhone [memorySize=" + memorySize + ", getModel()=" + getModel() + ", getNumber()=" + getNumber() + "]";
+	}
+
 	public int getMemorySize() {
 		return memorySize;
 	}

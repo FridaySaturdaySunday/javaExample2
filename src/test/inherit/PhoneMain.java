@@ -12,7 +12,7 @@ public class PhoneMain {
 		
 		System.out.println(iphone.getModel()+", "+iphone.getNumber()+", "+iphone.getMemorySize());
 		System.out.println(gphone.getModel()+", "+gphone.getNumber()+", "+gphone.getOs());
-		System.out.println(gphone);
+		System.out.println(iphone);
 	}
 
 }
