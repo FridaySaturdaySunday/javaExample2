@@ -26,6 +26,7 @@ public class AbstractEx {
 		p.out(); // 호출
 	
 		
+		
 		StudentSample ss2 = new Student(); // 다형성
 	
 	}
