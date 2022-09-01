@@ -3,7 +3,7 @@ package test.main;
 import test.map.Student;
 import test.map.StudentManager;
 
-public class PropertiesMain {
+public class PropertiesMain { // Properties : Hashtable의 하위 클래스로, 키와 값을 String 타입으로 제한
 
 	public static void main(String[] args) {
 

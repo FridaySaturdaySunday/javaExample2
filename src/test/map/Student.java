@@ -2,7 +2,7 @@ package test.map;
 
 //import java.io.Serializable
 
-public class Student implements java.io.Serializable{
+public class Student implements java.io.Serializable{ // Properties : Hashtable의 하위 클래스로, 키와 값을 String 타입으로 제한
 
 	private String no;
 	private String name;

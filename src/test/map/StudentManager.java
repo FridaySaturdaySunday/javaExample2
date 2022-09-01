@@ -3,7 +3,7 @@ package test.map;
 import java.util.*;
 import java.io.*;
 
-public class StudentManager {
+public class StudentManager { // Properties : Hashtable의 하위 클래스로, 키와 값을 String 타입으로 제한
 
 	private ArrayList<Student> list = new ArrayList<Student>();
 	private Properties prop = new Properties();
