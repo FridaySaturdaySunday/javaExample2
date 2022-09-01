@@ -3,7 +3,7 @@ package test.map;
 import java.util.HashMap;
 import java.util.Iterator;
 
-public class TestHashMap {
+public class TestHashMap { // HashMap : 키는 중복 저장을 허용하지 않으며, 값은 중복을 허용
 
 	public void testMap() {
 		

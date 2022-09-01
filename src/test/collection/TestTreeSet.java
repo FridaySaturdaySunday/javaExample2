@@ -2,7 +2,7 @@ package test.collection;
 
 import java.util.TreeSet;
 
-public class TestTreeSet {
+public class TestTreeSet { // TreeSet : 정렬기능이 추가되었고, 동일한 객체는 중복 저장하지 않음
 
 	public void testTreeSet () {
 		

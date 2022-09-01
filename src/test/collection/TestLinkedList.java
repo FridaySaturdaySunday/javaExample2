@@ -2,7 +2,7 @@ package test.collection;
 
 import java.util.LinkedList;
 
-public class TestLinkedList {
+public class TestLinkedList { // LinkedList : 양방향 포인터 구조로 데이터의 삽입, 삭제가 빈번할 경우 빠른 성능
 
 	public TestLinkedList() {} // 생성자
 	
