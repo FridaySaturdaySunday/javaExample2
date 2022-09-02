@@ -28,14 +28,24 @@ public class StudentManager { // MVC 중 Controller 역할
 		try { 
 			prop.load(new FileReader(new File("prop.propeties"))); // prop.load(파일명) : File에서 읽어서 prop에 로딩해줌
 			
+			
+			System.out.println("====Set enhanced for 출력====");
+			Set<Object> setkey = prop.keySet(); // Set으로 변환 -> iterator나 enhanced for 사용 가능
+			for(Object key : setkey) { 
+				System.out.printf("key:%s, value:%s\n", String.valueOf(key), prop.getProperty(String.valueOf(key)));
+			}
+			
+			
+			System.out.println("====고정 키 값으로 뿌림====");
 			// Loop(i : 1~prop) - {
 			// parseStudent(prop.get(i)) => 결과 모양을 list에 추가
 			// list 모두 출력 sysout
 			// }
 			for(int i=1; i<=prop.size(); i++) { // 1~prop 크기만큼 반복
 				String index = String.valueOf(i); // String.valueOf(i) : 숫자(i)를 문자열로 바꿔줌
-				list.add(parseStudent(prop.getProperty(index))); // index가 1~prop인 애를 꺼내주세요 -> 학생 객체로 변환(parseOO) -> list에 추가
+				list.add(parseStudent(prop.getProperty(index))); // 키값(index)이 1~prop인 애를 꺼냄 -> 학생 객체로 변환(parseOO) -> list에 추가
 			}
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
