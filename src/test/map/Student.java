@@ -2,8 +2,12 @@ package test.map;
 
 //import java.io.Serializable
 
-public class Student implements java.io.Serializable{ // Properties : Hashtable의 하위 클래스로, 키와 값을 String 타입으로 제한
+public class Student implements java.io.Serializable{ // MVC 중 Model 역할 (vo)
+	// 직렬화(Serialize)
+	// : 자바 시스템 내부에서 사용되는 Object 또는 Data를 외부의 자바 시스템에서도 사용할 수 있도록 byte 형태로 데이터를 변환하는 기술.
 
+	private static final long serialVersionUID = -5665441252652405264L;
+	
 	private String no;
 	private String name;
 	private int score;
