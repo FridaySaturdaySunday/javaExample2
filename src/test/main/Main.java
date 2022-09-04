@@ -1,6 +1,6 @@
 package test.main;
 
-import test.wrapper.WrapperEx;
+import test.random.RandomEx;
 
 public class Main {
 
@@ -26,7 +26,12 @@ public class Main {
 //		wp.printWrapper(i);
 //		wp.printWrapper(d);
 		
+//		Student s1 = new Student("홍길동", 100, 90);
+//		Student s2 = new Student("고길동", 90, 80);
+//		new StuManager().scoreComp(s1, s2);
 		
+		new RandomEx().testRandom();
+
 		
 	}
 
