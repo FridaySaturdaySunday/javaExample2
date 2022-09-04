@@ -30,7 +30,7 @@ public class Main {
 //		Student s2 = new Student("고길동", 90, 80);
 //		new StuManager().scoreComp(s1, s2);
 		
-		new RandomEx().testRandom();
+//		new RandomEx().testRandom();
 
 		
 	}
