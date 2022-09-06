@@ -5,11 +5,11 @@ public class CloneEx {
 	public void testClone() {
 		
 		Point p1 = new Point(10,20);
-		Point p2 = p1; // 얕은 복사 -> p1의 주소를 복사한다
+		Point p2 = p1; // 얕은 복사 -> p1의 '주소'를 복사한다
 		Point p3 = null;
 		
 		try {
-			p3 = (Point)p1.clone(); // clone() : 깊은 복사 -> p1의 주소가 가리키는 값을 복사한다
+			p3 = (Point)p1.clone(); // clone() : 깊은 복사 -> p1의 주소가 가리키는 '값'을 복사한다
 		} catch (CloneNotSupportedException e) {
 			e.printStackTrace();
 		}

@@ -1,6 +1,6 @@
 package test.clone;
 
-public class Point implements Cloneable {
+public class Point implements Cloneable { // Cloneable : interface
 
 	private int posX;
 	private int posY;
