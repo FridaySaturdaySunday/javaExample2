@@ -32,7 +32,7 @@ public class Main {
 //		new GetClassEx().testGetClass();
 //		new GetHashCodeEx().testHashCode();
 //		new ToStringEx().testToString();
-		new StringEx().testString();
+//		new StringEx().testString();
 //		new StringBufferEx().testStringBuffer();
 //		new MathTest().printMath();
 //

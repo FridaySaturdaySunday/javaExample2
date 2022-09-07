@@ -23,27 +23,26 @@ public class StringEx {
 		System.out.println("upperCase String : " + upperCase);
 		System.out.println("replace String : " + replace);
 		System.out.println("subString String : " + subString);
-		System.out.println();
 		
 		
 		
-		// 수업
-		String str1 = "0123456789";
-		String str2 = "안녕";
-		
-		System.out.println(str1 + str2);
-		System.out.println(str1);
-		System.out.println();
-		
-		System.out.println(str1.concat(str2));
-		System.out.println(str1);
-		System.out.println();
-		
-		System.out.println(str2);
-		System.out.println(str1);
-		
-		str1 = str1.substring(1, 4); // 1~3번째 위치 (위치는 0부터 시작)
-		System.out.println(str1);
+//		// 수업
+//		String str1 = "0123456789";
+//		String str2 = "안녕";
+//		
+//		System.out.println(str1 + str2);
+//		System.out.println(str1);
+//		System.out.println();
+//		
+//		System.out.println(str1.concat(str2));
+//		System.out.println(str1);
+//		System.out.println();
+//		
+//		System.out.println(str2);
+//		System.out.println(str1);
+//		
+//		str1 = str1.substring(1, 4); // 1~3번째 위치 (위치는 0부터 시작)
+//		System.out.println(str1);
 		
 	}
 }
