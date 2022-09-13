@@ -4,7 +4,7 @@ public abstract class Person { // 추상클래스
 
 	private String name;
 	
-	public Person() {} // 디폴트 생성자
+	public Person() {} // 기본 생성자
 	
 	public Person(String name) { // 오버로딩된 생성자
 		super();
